@@ -4,12 +4,52 @@
 		"selected_items":
 		[
 			[
-				"de",
-				"deltaTime"
+				"canS",
+				"canShootTimer"
+			],
+			[
+				"ene",
+				"enemies"
+			],
+			[
+				"pla",
+				"play"
+			],
+			[
+				"dra",
+				"drawEnemies"
 			],
 			[
 				"update",
-				"updateCirclePosition"
+				"updateGameState"
+			],
+			[
+				"Check",
+				"CheckCollision"
+			],
+			[
+				"ra",
+				"randomNumber"
+			],
+			[
+				"canSh",
+				"canShootTimerMax"
+			],
+			[
+				"can",
+				"canShoot"
+			],
+			[
+				"canSH",
+				"canShootTimer"
+			],
+			[
+				"canSHo",
+				"canShootTimerMax"
+			],
+			[
+				"de",
+				"deltaTime"
 			],
 			[
 				"circ",
@@ -23,34 +63,50 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "conf.lua",
-			"settings":
-			{
-				"buffer_size": 353,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "main.lua",
-			"settings":
-			{
-				"buffer_size": 279,
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Lua Love/LuaLove.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Run"
+			]
+		]
 	],
-	"build_varint": "",
+	"build_varint": "Run",
 	"command_palette":
 	{
-		"height": 67.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "packa",
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -74,13 +130,9 @@
 			[
 				"markmon",
 				"Markmon launch"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 521.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -101,11 +153,19 @@
 	"expanded_folders":
 	[
 		"/Users/nmall/workspace/fedex/love",
-		"/Users/nmall/workspace/fedex/love/ScrollingShooter",
-		"/Users/nmall/workspace/fedex/love/ScrollingShooter/assets"
+		"/Users/nmall/workspace/fedex/love/TagMonster"
 	],
 	"file_history":
 	[
+		"/Users/nmall/workspace/fedex/love/TagMonster/main.lua",
+		"/Users/nmall/workspace/fedex/love/ScrollingShooter/enemies.lua",
+		"/Users/nmall/workspace/fedex/love/TagMonster/notes.txt",
+		"/Users/nmall/workspace/fedex/love/TagMonster/conf.lua",
+		"/Users/nmall/workspace/fedex/love/ScrollingShooter/conf.lua",
+		"/Users/nmall/workspace/fedex/love/ScrollingShooter/player.lua",
+		"/Users/nmall/workspace/fedex/love/ScrollingShooter/util.lua",
+		"/Users/nmall/workspace/fedex/love/ScrollingShooter/main.lua",
+		"/Users/nmall/Library/Application Support/Sublime Text 3/Packages/User/Lua Love.sublime-build",
 		"/Users/nmall/workspace/fedex/love/src/main.lua",
 		"/Users/nmall/workspace/fedex/love/src/helloworld.lua",
 		"/Users/nmall/workspace/fedex/love/src/cake.lua",
@@ -224,14 +284,11 @@
 		"/Users/nmall/workspace/fedex/MetaMiner/words.txt",
 		"/Users/nmall/workspace/smartimage/out.txt",
 		"/Users/nmall/workspace/antlr/SearchGrammar.g",
-		"/Users/nmall/workspace/antlr/out/SearchGrammar.tokens",
-		"/Users/nmall/workspace/antlr/out/SearchGrammarLexer.java",
-		"/Users/nmall/workspace/third-party/javascript/intro.js/intro.js",
-		"/Users/nmall/Downloads/AdminQuery10-3-11.sql"
+		"/Users/nmall/workspace/antlr/out/SearchGrammar.tokens"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -246,6 +303,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"me:",
+			"player:",
+			"enemies:",
+			"me:",
+			"pp",
+			"player.",
+			"pplayerTable",
+			"player:",
+			"layer.",
+			"shoot()",
+			"shoot",
+			"moveRight",
+			"moveLeft",
+			"drawPlayer",
+			"false",
+			"processKeypress",
+			"checkCollision",
+			"enemyTable:",
+			"enemies",
+			"enemyhit",
+			"checkEnemyCollision",
+			"spawnEnemies",
+			"updateEnemies",
+			"')\n",
+			"function",
+			"\n	if love.keyboard.isDown('escape') then\n		print('Score', score)\n		love.event.push('quit')\n	end",
+			"collision",
+			"Collision",
+			"collision",
+			"Collision",
+			"collision",
+			",",
+			"enemy",
 			"t",
 			"circlePostion",
 			"3bcb10e7-3369-40e0-9804-60dd81e5236d_o",
@@ -340,40 +430,7 @@
 			"^\\d+,(2)\\d{3},.*$",
 			"/share/17c12614/f6c4044d/Zqih1,200,OK,Thread Group 1-",
 			"label",
-			"Thread Group 1-529",
-			"Thread Group 1",
-			"Thread Group 1-36",
-			"Thread Group 1",
-			"Thread Group 1-",
-			"Thread Group 1-37",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"/550399ff,200,OK,Thread Group 1",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"/550399ff,200,OK,Thread Group 1",
-			"^\\d+,(2)\\d{3},.*$",
-			"zip",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"/550399ff,200,OK,Thread Group 1-41",
-			"/550399ff,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/550399ff,200,OK,Thread Group 1-",
-			"/small,200,OK,Thread Group 1-",
-			" /small,200,OK,Thread Group 1-416",
-			" /small,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/small,200,OK,Thread Group 1-",
-			"/medium,200,OK,Thread Group 1-",
-			"^\\d+,(2)\\d{3},.*$",
-			"/medium,200,OK,Thread Group 1-171"
+			"Thread Group 1-529"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -381,6 +438,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"checkCollision",
+			"spawn",
+			"update",
 			"**",
 			"***",
 			"*",
@@ -398,65 +458,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "conf.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 353,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								150,
-								150
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "main.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -491,6 +494,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 222.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -499,7 +506,7 @@
 	{
 		"height": 100.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/User/Lua Love.sublime-build",
 	"project": "ScrollingShooter.sublime-project",
 	"replace":
 	{
@@ -526,12 +533,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -541,7 +548,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

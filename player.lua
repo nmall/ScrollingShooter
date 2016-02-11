@@ -3,10 +3,12 @@ Player = {}
 local canShootTimerMax = 0.2
 local canShootTimer
 
+local bulletImg = nil
+
 function Player.load()
-	local image = love.graphics.newImage('assets/sprites/ship.png')
-	
-	playerTable = { x = 200, y = 710, speed = 500, img = image }
+	local playerImage = love.graphics.newImage('assets/sprites/ship.png')
+	bulletImg = love.graphics.newImage('assets/sprites/bullet.png')
+	playerTable = { x = 200, y = 710, speed = 500, img = playerImage }
 
 	Player.init()
 end
@@ -17,6 +19,9 @@ function Player.init()
 
 	canShoot = true
 	canShootTimer = canShootTimerMax
+
+	bullets = {}
+	
 end
 
 function Player.draw()
